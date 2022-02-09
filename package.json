@@ -12,9 +12,9 @@
   },
   "lint-staged": {
     "src/*.{ts,tsx}": [
-      "yarn test",
+      "yarn test --findRelatedTests",
       "yarn prettier:fix",
-      "yarn lint",
+      "yarn lint --fix",
       "git add ."
     ]
   },
