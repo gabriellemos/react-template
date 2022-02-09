@@ -16,7 +16,7 @@
 
 This is a react template project created with [Vite](https://vitejs.dev/) configured with typescript, eslint, prettier, husky and already set for unit testing (jest and testing library) and end to end testing (cypress and cucumber).
 
-[↩ Back to top](#trivia-app-frontend) <br/>
+[↩ Back to top](#table-of-contents) <br/>
 
 ---
 
@@ -32,7 +32,7 @@ After installing node, install `yarn` with the following command
 $ npm install --global yarn
 ```
 
-[↩ Back to top](#trivia-app-frontend) <br/>
+[↩ Back to top](#table-of-contents) <br/>
 
 ---
 
@@ -44,7 +44,7 @@ With Node and yarn installed, open a terminal within the project folder and run 
 $ yarn install
 ```
 
-[↩ Back to top](#trivia-app-frontend) <br/>
+[↩ Back to top](#table-of-contents) <br/>
 
 ---
 
@@ -82,7 +82,7 @@ Execute eslint checking.
 
 Fix formatting issues on the project.
 
-[↩ Back to top](#trivia-app-frontend) <br/>
+[↩ Back to top](#table-of-contents) <br/>
 
 ---
 
@@ -90,7 +90,7 @@ Fix formatting issues on the project.
 
 ### Workspace
 
-When developing new features, fixing a bug, adding tests, documentation or any other adition to this repository. First create a branch derived from `main` so that you can make your modifications, commit and then submit a pull request.
+When developing new features, fixing a bug, adding tests, documentation or any other adition to this repository. First create a branch derived from `development` so that you can make your modifications, commit and then submit a pull request.
 
 This project is already configured to enforce lint and code formatting with eslint and prettier.  
 It is also integrated with husky so prior to any commit it will attempt to fix issues with lint, code formatting and will execute tests related to changes made.
@@ -100,7 +100,7 @@ If you're developing with `Visual Studio Code`, we recommend the following exten
 - ESLint: Integrates ESLint JavaScript into VS Code.
 - Prettier: Code formatter using prettier
 
-[↩ Back to top](#trivia-app-frontend) <br/>
+[↩ Back to top](#table-of-contents) <br/>
 
 ---
 
@@ -120,13 +120,13 @@ The commit message should be structured as follows:
 
 For more details, refer to the following [documentation](https://www.conventionalcommits.org/en/v1.0.0-beta.2/).
 
-[↩ Back to top](#trivia-app-frontend) <br/>
+[↩ Back to top](#table-of-contents) <br/>
 
 ---
 
 ### Pull Request
 
-When creating a pull request, always mark the option to squash commits when merging into `main`, assing a main revisor for the request and perform a sanity check with another developer or QA agent.
+When creating a pull request, always mark the option to squash commits when merging into `development`, assing a main revisor for the request and perform a sanity check with another developer or QA agent.
 
 The **main revisor** is reponsible to download the code, check functionality running in his environment and performing the code review adding comments and requests if required.
 
@@ -136,6 +136,6 @@ The **code analysis** will be execute with CI/CD where the lint check and tests 
 
 After each process, a vote up 👍 or vote down 👎 is added to the merge request and after acquiring success on all ends, the pull request can be merged.
 
-[↩ Back to top](#trivia-app-frontend) <br/>
+[↩ Back to top](#table-of-contents) <br/>
 
 ---
