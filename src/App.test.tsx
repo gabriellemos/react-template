@@ -1,11 +1,11 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'
 
-import App from 'App';
+import App from 'App'
 
 describe('Sample test', () => {
   it('renders a welcoming message', () => {
-    render(<App />);
+    render(<App />)
 
-    expect(screen.getByRole('heading')).toHaveTextContent('Hello World');
-  });
-});
+    expect(screen.getByRole('heading')).toHaveTextContent('Hello World')
+  })
+})
