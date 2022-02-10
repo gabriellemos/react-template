@@ -72,7 +72,17 @@ See the section about [deployment](https://vitejs.dev/guide/static-deploy.html) 
 ### `yarn test`
 
 Launches the test runner for unit tests on the application.  
-For more details about testing check [jest](https://jestjs.io/pt-BR/) and [testing-library](https://testing-library.com/docs/)
+For more details about testing check [jest](https://jestjs.io/) and [testing-library](https://testing-library.com/docs/)
+
+### `yarn e2e:open`
+
+Launches the test runner for end to end tests for the application.  
+For more details about testing check [cypress](https://docs.cypress.io/guides) and [cucumber](https://cucumber.io/docs/guides/)
+
+### `yarn e2e:run`
+
+Execute end to end tests on the CLIfor the application.  
+For more details about testing check [cypress](https://docs.cypress.io/guides) and [cucumber](https://cucumber.io/docs/guides/)
 
 ### `yarn lint`
 
@@ -99,6 +109,7 @@ If you're developing with `Visual Studio Code`, we recommend the following exten
 
 - ESLint: Integrates ESLint JavaScript into VS Code.
 - Prettier: Code formatter using prettier
+- Cucumber (Gherkin) Full Support: Full Language Support + Formatting + Autocomplete
 
 [↩ Back to top](#table-of-contents) <br/>
 
