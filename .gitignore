@@ -1,5 +1,11 @@
+# React with vite
 node_modules
 .DS_Store
 dist
 dist-ssr
 *.local
+
+# Tests
+coverage/
+cypress/videos/
+cypress/screenshots/
