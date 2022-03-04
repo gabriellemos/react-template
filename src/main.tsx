@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import 'config/localization'
 import 'css/normalize.css'
 import 'css/index.css'
 
