@@ -1,5 +1,6 @@
 import { QueryClientProvider } from 'react-query'
 import { ReactQueryDevtools } from 'react-query/devtools'
+import { BrowserRouter } from 'react-router-dom'
 
 import queryClient from 'config/react-query'
 
@@ -10,7 +11,7 @@ type Props = {
 function AppConfiguration({ children }: Props) {
   return (
     <QueryClientProvider client={queryClient}>
-      {children}
+      <BrowserRouter>{children}</BrowserRouter>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   )

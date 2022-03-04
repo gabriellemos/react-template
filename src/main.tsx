@@ -5,13 +5,13 @@ import 'config/localization'
 import 'css/normalize.css'
 import 'css/index.css'
 
-import App from 'App'
+import AppRouter from 'pages'
 import AppConfiguration from 'config'
 
 ReactDOM.render(
   <React.StrictMode>
     <AppConfiguration>
-      <App />
+      <AppRouter />
     </AppConfiguration>
   </React.StrictMode>,
   document.getElementById('root')

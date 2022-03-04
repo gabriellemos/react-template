@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react'
 
-import App from 'App'
+import Home from 'pages/home'
 
 describe('Sample test', () => {
   it('renders a welcoming message', () => {
-    render(<App />)
+    render(<Home />)
 
     expect(screen.getByRole('heading')).toHaveTextContent('Hello World')
   })
