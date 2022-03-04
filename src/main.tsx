@@ -6,10 +6,13 @@ import 'css/normalize.css'
 import 'css/index.css'
 
 import App from 'App'
+import AppConfiguration from 'config'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AppConfiguration>
+      <App />
+    </AppConfiguration>
   </React.StrictMode>,
   document.getElementById('root')
 )
